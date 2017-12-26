@@ -1,4 +1,6 @@
-﻿var slideIndex = 1;
+﻿/*Source: https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -21,8 +23,8 @@ function showSlides(n) {
         slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" activedot", "");
     }
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    dots[slideIndex - 1].className += " activedot";
 }
