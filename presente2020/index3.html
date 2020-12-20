@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gabi's site">
+    <meta name="author" content="Gabi Silva">
+    <link rel="icon" href="../assets/favicon.ico">
+
+    <title>Gabi Silva</title>
+
+    <style>
+        .center {
+            margin: auto;
+            width: 40%;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            transform: translateX(-50%) translateY(-50%);
+            background-size: cover;
+            transition: 1s opacity;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <video poster="video1.mp4" id="bgvid" playsinline autoplay muted loop>
+        <!-- 
+      - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+      WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+      
+      <source src="video1.mp4" type="video/mp4">
+      
+      </video>
+
+    <div class='center' style='background-color: dodgerblue;'>
+        <h1>
+            Presente de Natal 2020
+        </h1>
+        <br/>
+        <p style='font-size: xx-large;'>
+            3ヶ月の日本語コース
+        </p>
+
+    </div>
+
+</body>
+
+</html>
