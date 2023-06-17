@@ -1,0 +1,31 @@
+h1 {
+    font-family:Agency FB;
+    color:#ececf5;
+    font-size: 70px;
+  }
+
+  h2 {
+    font-family:Agency FB;
+    color:#ececf5;
+    font-size: 40px;
+  }
+
+p {
+  font-family:Agency FB;
+  color: #A11517;
+  font-size: 20px;
+}
+
+div.a {
+    
+  }
+  
+
+body {
+    background-color: #00050f;
+    text-align: center;
+  }
+
+  a {
+    color: #BB0000;
+  }
